@@ -4,11 +4,223 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jose Justin - Portifolio</title>
+    <meta name="author" content="Jose Leandro Santo Justin">
+    <meta name="keywords" content="Jose Leandro Santo Justin, Jose Justin, zejustinn">
+    <title>Jose Justin - Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </head>
 <body>
-    <main>
-        <p>Simple page to test GitHub Pages as a web portfolio</p>
+    <main class="container">
+        <section>
+            <h1 class="col-12 display-3">Jose Leandro Santos Justin</h1>
+            <dl class="row">
+                <dt class="col-sm-2">Nationality:</dt>
+                <dd class="col-sm-10">Brazilian</dd>
+                
+                <dt class="col-sm-2">Birth date:</dt>
+                <dd class="col-sm-10">February 1st, 1994</dd>
+                  
+                <dt class="col-sm-2">Address:</dt>
+                <dd class="col-sm-10">Porto Alegre/RS, Brazil</dd>
+                  
+                  
+                <dt class="col-sm-2">Languages:</dt>
+                <dd class="col-sm-10">Portuguese(native) e English(advanced)</dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2 data-bs-target="#about">About</h2>
+            <div class="collapse show" id="about">
+                <p class="lead">
+                    I started my career in software development in 2014 with a technical course where I had my first contact with logic programming and building applications. 2 years later I got my first job offer, where I got to know the endless technologies I eventually came in contact with.
+                </p>
+                <p class="lead">
+                    From the beginning, I had the opportunity to work with several programming languages (JavaScript, TypeScript, PHP, Java and GoLang) and use them to build backend and frontend applications. I also had contact with some agile frameworks (Scrum, Kanban and XP) and softwares(Node.js, Apache Kafka, RabbitMQ, Jenkins, Docker, Kubernetes...) to solve customer’s problems.
+                </p>
+                <p class="lead">
+                    My most experience is with JavaScript, which I have been working on since 2016, creating services like public and private APIs, authentication services, chats and streams. I have also used different frameworks (Express.js, Koa, Socket.io, Nest.js, RxJS, Vue.js, React.js...), always looking for clean code and a good architecture that facilitates scalability and maintainability of the code.
+                </p>
+                <p class="lead">
+                    I have a solid knowledge in software development that I try to improve through the best practices of each technology, which allows me to collaborate with the team in different situations.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2 data-bs-target="#education">Education</h2>
+            <div class="collapse show" id="education">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">College</h5>
+                            <small class="text-body-secondary">12/2020</small>
+                        </div>
+                        <p class="mb-1">Analysis and systems development</p>
+                        <small class="text-body-secondary">FADERGS</small>
+                    </a>
+
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h5 class="mb-1">Technical course</h5>
+                          <small class="text-body-secondary">08/2015</small>
+                        </div>
+                        <p class="mb-1">Computer Technician</p>
+                        <small class="text-body-secondary">Alcides Maya</small>
+                    </a>
+
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h5 class="mb-1">Vocational course</h5>
+                          <small class="text-body-secondary">07/2013</small>
+                        </div>
+                        <p class="mb-1">Computer installer and repairer</p>
+                        <small class="text-body-secondary">Senac</small>
+                    </a>
+
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h5 class="mb-1">High School</h5>
+                          <small class="text-body-secondary">12/2012</small>
+                        </div>
+                        <small class="text-body-secondary">C. E. Cônego Paulo de Nadal</small>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 data-bs-target="#experiences" aria-expanded="true">Experiences</h2>
+            <div class="accordion collapse show" id="experiences">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#cwi" aria-expanded="true" aria-controls="cwi">
+                        CWI Software
+                    </button>
+                  </h2>
+                  <div id="cwi" class="accordion-collapse collapse show" data-bs-parent="#experiences">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled">
+                            <li><strong>Role:</strong> Full-time | Backend developer</li>
+                            <li><strong>Date:</strong> Nov 2021 - Jan 2023</li>
+                            <li><strong>Technologies:</strong> Node.js, TypeScript, MongoDB, Docker, RabbitMQ, ElasticSearch</li>
+                            <li><strong>Description:</strong> Collaborate in the development of internal services for integration with 3rd party API. Identify and fix problems in legacy systems. Rewrite the code of some of these legacy systems using new technologies and best practices. Advocate good practices and encourage their use in order to avoid technical debts and future legacy systems that are rigid and difficult to understand.</li>
+                            <li><strong>Activities:</strong>
+                              <ul>
+                                <li>Building new services for use in a microservices architecture environment.</li>
+                                <li>Perform maintenance and add new functionalities to the legacy system.</li>
+                                <li>Collaborate with the improvement of the company's internal development cycle.</li>
+                              </ul>
+                            </li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#smarket" aria-expanded="false" aria-controls="smarket">
+                        Smarket Solutions
+                    </button>
+                  </h2>
+                  <div id="smarket" class="accordion-collapse collapse" data-bs-parent="#experiences">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled">
+                            <li><strong>Role:</strong> Full-time | Backend developer</li>
+                            <li><strong>Date:</strong> Jun 2021 - Nov 2021</li>
+                            <li><strong>Technologies:</strong> Node.js, TypeScript, MongoDB, PostgreSQL, Docker, Apache Kafka</li>
+                            <li><strong>Description:</strong> Implement solutions suggested by the technology team. Creating internal packages for reuse as dependencies in authentication services, authorization, APIs and middlewares. Help other developers to improve themselves. Collaborate with the standardization of the software development process to ease the transition of different developers in different projects.</li>
+                            <li><strong>Activities:</strong>
+                              <ul>
+                                <li>Design, build and test web APIs to support massive requests.</li>
+                                <li>Help define internal service communication using a microservices architecture.</li>
+                                <li>Collaborate with improving the company's internal development cycle.</li>
+                              </ul>
+                            </li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dx" aria-expanded="false" aria-controls="dx">
+                        4all - DX.CO
+                    </button>
+                  </h2>
+                  <div id="dx" class="accordion-collapse collapse" data-bs-parent="#experiences">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled">
+                            <li><strong>Role:</strong> Full-time | Backend developer</li>
+                            <li><strong>Date:</strong> Feb 2021 - Jun 2021</li>
+                            <li><strong>Technologies:</strong> Node.js, TypeScript, Java, GraphQL, HTML, CSS, Vue.js, MongoDB, MySQL, Docker</li>
+                            <li><strong>Description:</strong> Understand the legacy system and its technologies in order to keep it working and add new functionalities. Pass on the knowledge of how the system works to less senior developers, as well as help them implement solutions to the problems encountered.</li>
+                            <li><strong>Activities:</strong>
+                              <ul>
+                                <li>Perform maintenance and add new functionality to the legacy system.</li>
+                                <li>Activities performed on both the backend and the frontend.</li>
+                                <li>Collaborate with the improvement of the company's internal development cycle.</li>
+                                <li>Assist in the learning of new developers.</li>
+                              </ul>
+                            </li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#okl" aria-expanded="false" aria-controls="okl">
+                        OKL Development studio
+                      </button>
+                    </h2>
+                    <div id="okl" class="accordion-collapse collapse" data-bs-parent="#experiences">
+                      <div class="accordion-body">
+                        <ul class="list-unstyled">
+                            <li><strong>Role:</strong> Self-employed | Full Stack Developer</li>
+                            <li><strong>Date:</strong> Jun 2018 - Jun 2020</li>
+                            <li><strong>Technologies:</strong> Node.js, TypeScript, Java, PHP, HTML, CSS, Vue.js, React.js, MySQL, Docker, AWS</li>
+                            <li><strong>Description:</strong> Work through the entire project development cycle. Since the understanding of the project with the client (remote and face-to-face meetings), requirements gathering, task definition (Jira and Trello), development (with several languages and frameworks), testing (Mocha and Jest) and deployment (Jenkins and Docker). The activities and technologies varied according to the project and I contributed whenever possible, both on the backend and the frontend.</li>
+                            <li><strong>Activities:</strong>
+                              <ul>
+                                <li>Define and develop systems that would satisfy user requirements.</li>
+                                <li>Assisting in standardizing the company's development cycle and creating CI/CD pipelines</li>
+                                <li>Develop projects from scratch and maintain existing projects. Activities performed on both backend and frontend.</li>
+                              </ul>
+                            </li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+    
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        UNICRED - Cooperative financial institutional
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#experiences">
+                      <div class="accordion-body">
+                        <ul class="list-unstyled">
+                            <li><strong>Role:</strong> Intern | Full Stack Developer</li>
+                            <li><strong>Date:</strong> Mar 2016 - Feb 2018</li>
+                            <li><strong>Technologies:</strong> PHP, JavaScript, HTML, CSS, MySQL</li>
+                            <li><strong>Description:</strong> Assist the responsible developer in keeping the system running as well as helping users understand and use it The development and maintenance of the system was done using frontend technologies such as JavaScript, HTML and CSS and backend technologies such as PHP and MySQL. The system was a monolith using a thin architecture and hosted on the company's server.</li>
+                            <li><strong>Activities:</strong>
+                              <ul>
+                                <li>Perform maintenance and add new functionality to the internal web system. Activities performed on both the backend and frontend.</li>
+                                <li>Define and develop systems that would satisfy the users' requirements.</li>
+                                <li>Helping users to use the new tools as well as the legacy ones.</li>
+                              </ul>
+                            </li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>
